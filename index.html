@@ -3,9 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Legend of Zelda: Tears of Kingdom</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Rancho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1> hajara munjiya</h1>
-</body>
-</html>
+    <header>
+        <div class="container">
+            <div class="auth-links">
+                <a href="https://accounts.nintendo.com/authorize_guide?redirect_uri=https%3A%2F%2Faccounts.nintendo.com%2Fconnect%2F1.0.0%2Fauthorize%3Fresponse_type%3Dcode%2Bid_token%2Btoken%26client_id%3De56201e414c97a10%26redirect_uri%3Dhttps%253A%252F%252Fzelda.nintendo.com%26scope%3DeshopAlps%2BmissionStatus%2BmissionStatus%253Aprogress%2Bopenid%2BpointWallet%2Buser%2Buser.birthday%2Buser.links%255B%255D.id%2Buser.mii%2Buser.wishlist%2BuserNotificationMessage%253AanyClients%2BuserNotificationMessage%253AanyClients%253Awrite%26state%3Dbc91f1cf48355813fc9b48e249e7b0de%26response_mode%3Dweb_message%26web_message_uri%3Dhttps%253A%252F%252Faccounts.nintendo.com%26web_message_target%3Dop-frame%26interacted%3D1&type=mixed">Log In</a>
+                <a href="https://accounts.nintendo.com/authorize_guide?redirect_uri=https%3A%2F%2Faccounts.nintendo.com%2Fconnect%2F1.0.0%2Fauthorize%3Fresponse_type%3Dcode%2Bid_token%2Btoken%26client_id%3De56201e414c97a10%26redirect_uri%3Dhttps%253A%252F%252Fzelda.nintendo.com%26scope%3DeshopAlps%2BmissionStatus%2BmissionStatus%253Aprogress%2Bopenid%2BpointWallet%2Buser%2Buser.birthday%2Buser.links%255B%255D.id%2Buser.mii%2Buser.wishlist%2BuserNotificationMessage%253AanyClients%2BuserNotificationMessage%253AanyClients%253Awrite%26state%3Dbc91f1cf48355813fc9b48e249e7b0de%26response_mode%3Dweb_message%26web_message_uri%3Dhttps%253A%252F%252Faccounts.nintendo.com%26web_message_target%3Dop-frame%26interacted%3D1&type=mixed">Sign Up</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="dlc.html">DLC</a></li>
+                    <li><a href="buy.html">Buy Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="home" class="hero">
+            <div id="parallax">
+                <div class="layer" data-depth="0.10">
+                    <img src="images/bg/zeldaa.png" alt="Layer 1">
+                </div>
+                <div class="layer" data-depth="0.30">
+                    <img src="images/bg/bw.png" alt="Layer 2">
+                </div>
+                <div class="layer" data-depth="0.50">
+                    <img src="images/bg/out.png" alt="Layer 3">
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1 style="color: #FFFFFF; font-family: 'Fondamento', cursive;">The Legend of Zelda: Tears of Kingdom</h1>
+                <h2 style="color: #FFFFFF; font-family: 'Rancho', cursive;">Embark on an Epic Adventure</h2>
+                <p style="color: #FFFFFF;">Explore the mystical world of Tears of Kingdom and uncover its secrets.</p>
+                <a href="buy.html" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section> 
+             <div class="watch-trailer">
+            <button id="watch-trailer-btn">Watch Trailer</button>
+            <video id="trailer-video" controls>
+                <source src="video-trailer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        </section>
+
+        
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="available-now" onclick="window.location.href='buy.html'">
+                    <h3>Available now</h3>
+                    <p>Game and system sold separately.</p>
+                    <div class="images">
+                        <img src="images/game-cover.png" alt="Game Cover">
+                        <img src="images/switch-console.png" alt="Switch Console">
+                    </div>
+                </div>
+                <p>Share this site</p>
+                <p>Game updates <a href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/25568/p/897" target="_blank">Opens in a new window</a>.</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/Nintendo" target="_blank">
+                        <img src="images/facebook-logo.png" alt="Facebook logo">
+                    </a>
+                    <a href="https://twitter.com/Nintendo" target="_blank">
+                        <img src="images/twitter-logo.png" alt="Twitter logo">
+                    </a>
+                    <a href="https://www.youtube.com/Nintendo" target="_blank">
+                        <img src="images/youtube-logo.png" alt="YouTube logo">
+                    </a>
+                    <a href="https://www.instagram.com/Nintendo" target="_blank">
+                        <img src="images/instagram-logo.png" alt="Instagram logo">
+                    </a>
+                </div>
+                <div class="esrb">
+                        <a href="https://www.esrb.org/ratings-guide/" target="_blank">
+                            <img src="images/esrb-logo.png" alt="ESRB logo">
+                        </a>
+                        <p>ESRB: E10</p>
+                        <p>Fantasy Violence, Mild Suggestive Themes, Use of Alcohol</p>
+                        <p><a href="https://www.esrb.org/EPCConfirm/891/" target="_blank">ESRB Privacy Certified</a></p>
+                    </div>
+                    <p><a href="https://www.nintendo.com/us/privacy-policy/" target="_blank">Privacy Policy</a> | <a href="https://www.nintendo.com/us/terms-of-use/" target="_blank">Terms of Use</a> | <a href="https://www.nintendo.com/us/privacy-request/#cookies" target="_blank">Cookie Preferences</a></p>
+                    <p>Interest-Based Ads</p>
+                    
+                    <p>&copy; 2023 Nintendo. The Legend of Zelda, Wii U, and Nintendo Switch are trademarks of Nintendo.</p>
+                    </div>
+                    </div>
+                </footer>
+
+                    </body>
+                    <script src="js/main.js"></script>
+
+                    </html>
+                    
